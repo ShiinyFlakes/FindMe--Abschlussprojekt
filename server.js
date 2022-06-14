@@ -7,10 +7,13 @@ const PORT = process.env || 8000 ;
 
 
 app.get('/', function (req, res) {
-    res.send('GET request to the homepage');
+    res.send('GET request to the mainpage');
   });
-  app.post('/', function (req, res) {
-    res.send('POST request to the homepage');
+  app.get('/register', function (req, res) {
+    res.send('get request to the register');
+});  
+app.get('/login', function (req, res) {
+    res.send('get request to the login');
 });  
 // app.get("/register", (req, res));
 // app.get("/mainpage", (req, res));
