@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Sports() {
   return (
-    <div>Sports</div>
-  )
+    <div>
+      <h1>Sports</h1>
+    </div>
+  );
 }
 
-export default Sports
+export default Sports;

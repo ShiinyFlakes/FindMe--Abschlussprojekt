@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 function Partys() {
   return (
-    <div>Partys</div>
-  )
+    <div>
+      <h1>Partys</h1>
+    </div>
+  );
 }
 
-export default Partys
+export default Partys;
